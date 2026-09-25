@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thipekesh Thavarajah – Software Engineer</title>
+  <meta name="description" content="Software Engineer specialising in full-stack development, cloud-native applications, and DevOps. MSc Software Engineering student with hands-on AWS and Docker experience.">
+  <meta name="keywords" content="software engineer, full stack developer, AWS, cloud, DevOps, React, Node.js, Python, Docker, Kubernetes, portfolio, Thipekesh Thavarajah">
+  <meta name="author" content="Thipekesh Thavarajah">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thipekesh Thavarajah – Software Engineer">
+  <meta property="og:description" content="Software Engineer specialising in full-stack development, cloud-native applications, and DevOps.">
+  <meta property="og:image" content="assets/img/my-profile-img.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+  <link rel="shortcut icon" href="favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+
+  <!-- Fonts: Inter (body) + JetBrains Mono (code/dates) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Portfolio CSS (new design) -->
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════════════════ -->
+<nav class="nav" id="site-nav" aria-label="Main navigation">
+  <div class="container nav__inner">
+    <a href="#hero" class="nav__brand" aria-label="Thipekesh Thavarajah – Home">
+      Thipekesh<span>.</span>
+    </a>
+
+    <ul class="nav__links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#aws">AWS</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#contact" class="btn btn--outline nav__cta" aria-label="Contact Thipekesh">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Get in touch
+    </a>
+
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open navigation menu">
+      <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile nav drawer -->
+<nav class="nav__mobile" id="nav-mobile" aria-label="Mobile navigation">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#aws">AWS</a>
+  <a href="#contact">Contact</a>
+  <a href="mailto:thipekesh@gmail.com" class="btn btn--primary" style="margin-top:1rem;justify-content:center;">Get in touch</a>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════════ -->
+<section id="hero" class="hero" aria-label="Introduction">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero__grid">
+
+      <!-- Text -->
+      <div class="hero__text">
+        <span class="hero__eyebrow" aria-label="Available for opportunities">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Open to opportunities
+        </span>
+
+        <h1 class="hero__title">
+          <span class="hero__role">Software Engineer</span>
+          Thipekesh<br>Thavarajah
+        </h1>
+
+        <p class="hero__desc">
+          Full-stack developer and MSc Software Engineering student building
+          practical, cloud-native applications. Experienced in APIs, DevOps
+          pipelines, and AWS services — focused on software that is reliable,
+          accessible, and genuinely useful.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8,21 12,17 16,21"/></svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn--outline">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Contact Me
+          </a>
+          <a href="https://github.com/Thipekesh28" target="_blank" rel="noopener noreferrer" class="btn btn--ghost" aria-label="View GitHub profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Photo -->
+      <div class="hero__img-wrap">
+        <img src="assets/img/my-profile-img.jpg"
+             alt="Thipekesh Thavarajah – Software Engineer"
+             class="hero__avatar"
+             width="340" height="340"
+             loading="eager">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════════════ -->
+<section id="about" class="section section--alt" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="section-header" data-anim>
+      <h2 id="about-heading">About Me</h2>
+      <p>A bit about who I am and what drives me.</p>
+    </div>
+
+    <div class="about__grid">
+      <div data-anim data-anim-delay="100">
+        <img src="assets/img/my-profile-img.jpg"
+             alt="Thipekesh Thavarajah"
+             class="about__photo"
+             width="400" height="500"
+             loading="lazy">
+      </div>
+
+      <div data-anim data-anim-delay="200">
+        <h3>Thipekesh Thavarajah</h3>
+        <span class="about__role-tag">Software Engineer · Full-Stack Developer · MSc Candidate</span>
+
+        <p class="about__bio">
+          I'm a software engineer focused on building practical applications that make everyday
+          work easier. My background spans full-stack development, cloud-native architecture,
+          REST APIs, and DevOps practices. I've worked across the full delivery lifecycle —
+          from design and development through to infrastructure support and quality assurance.
+        </p>
+        <p class="about__bio">
+          Currently pursuing an MSc in Software Engineering at the University of Hertfordshire,
+          I'm deepening my expertise in secure API design, automated testing, and cloud-native
+          reliability. I aim to grow as a responsible engineer who creates accessible, useful
+          software that respects people's privacy and considers the wider impact of technology.
+        </p>
+
+        <dl class="about__details">
+          <div class="about__detail">
+            <dt>Degree</dt>
+            <dd>BSc (Hons) ICE · MSc Software Eng.</dd>
+          </div>
+          <div class="about__detail">
+            <dt>Email</dt>
+            <dd><a href="mailto:thipekesh@gmail.com">thipekesh@gmail.com</a></dd>
+          </div>
+          <div class="about__detail">
+            <dt>Based</dt>
+            <dd>Trincomalee, Sri Lanka</dd>
+          </div>
+          <div class="about__detail">
+            <dt>Focus</dt>
+            <dd>Full-Stack · Cloud · DevOps</dd>
+          </div>
+          <div class="about__detail">
+            <dt>LinkedIn</dt>
+            <dd><a href="https://www.linkedin.com/in/thipekesh/" target="_blank" rel="noopener">linkedin.com/in/thipekesh</a></dd>
+          </div>
+          <div class="about__detail">
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/Thipekesh28" target="_blank" rel="noopener">github.com/Thipekesh28</a></dd>
+          </div>
+        </dl>
+
+        <div class="about__links">
+          <a href="https://www.linkedin.com/in/thipekesh/" target="_blank" rel="noopener noreferrer" class="btn btn--primary" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Thipekesh28" target="_blank" rel="noopener noreferrer" class="btn btn--ghost" aria-label="GitHub profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     SKILLS
+═══════════════════════════════════════════════════ -->
+<section id="skills" class="section" aria-labelledby="skills-heading">
+  <div class="container">
+    <div class="section-header" data-anim>
+      <h2 id="skills-heading">Technical Skills</h2>
+      <p>Technologies and practices I work with across the full development lifecycle.</p>
+    </div>
+
+    <div class="skills__categories">
+
+      <div class="skill-category" data-anim data-anim-delay="50">
+        <div class="skill-category__title">
+          <svg class="skill-category__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Languages
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">PHP</span>
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skill-category" data-anim data-anim-delay="100">
+        <div class="skill-category__title">
+          <svg class="skill-category__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8,21 12,17 16,21"/></svg>
+          Frontend &amp; Mobile
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">React Native</span>
+          <span class="skill-tag">Bootstrap</span>
+          <span class="skill-tag">Front-End Development</span>
+        </div>
+      </div>
+
+      <div class="skill-category" data-anim data-anim-delay="150">
+        <div class="skill-category__title">
+          <svg class="skill-category__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"/><polygon points="18 2 22 6 12 16 8 16 8 12 18 2"/></svg>
+          Backend &amp; Database
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express.js</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">Microservices</span>
+          <span class="skill-tag">PHP Applications</span>
+          <span class="skill-tag">MariaDB</span>
+        </div>
+      </div>
+
+      <div class="skill-category" data-anim data-anim-delay="200">
+        <div class="skill-category__title">
+          <svg class="skill-category__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          Cloud &amp; DevOps
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Amazon Web Services</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">Rancher</span>
+          <span class="skill-tag">Linux Servers</span>
+          <span class="skill-tag">CI/CD</span>
+          <span class="skill-tag">GitHub</span>
+        </div>
+      </div>
+
+      <div class="skill-category" data-anim data-anim-delay="250">
+        <div class="skill-category__title">
+          <svg class="skill-category__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          AI &amp; Generative AI
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Amazon Bedrock</span>
+          <span class="skill-tag">Agentic AI</span>
+          <span class="skill-tag">Multi-Agent Systems</span>
+          <span class="skill-tag">Prompt Engineering</span>
+          <span class="skill-tag">AI Development Lifecycle</span>
+        </div>
+      </div>
+
+      <div class="skill-category" data-anim data-anim-delay="300">
+        <div class="skill-category__title">
+          <svg class="skill-category__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Engineering Practices
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Agile</span>
+          <span class="skill-tag">Waterfall</span>
+          <span class="skill-tag">Quality Assurance</span>
+          <span class="skill-tag">System Administration</span>
+          <span class="skill-tag">Statistical Data Analysis</span>
+          <span class="skill-tag">IT Infrastructure</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════════════════ -->
+<section id="projects" class="section section--alt" aria-labelledby="projects-heading">
+  <div class="container">
+    <div class="section-header" data-anim>
+      <h2 id="projects-heading">Projects</h2>
+      <p>Selected work spanning enterprise software, CRM systems, and cloud-based tooling.</p>
+    </div>
+
+    <div class="projects__grid">
+
+      <!-- newperfectckandribs — Featured Personal Project -->
+      <div class="project-card" data-anim data-anim-delay="50">
+        <div class="project-card__img-wrap">
+          <img src="assets/img/portfolio/newperfectckandribs.png"
+               alt="BWEK SFF System – Supplier Feedback Framework interface"
+               loading="lazy">
+          <span class="project-card__badge project-card__badge--personal">Professional</span>
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__label">CRM &amp; Shift Management</span>
+          <h3 class="project-card__title">newperfectckandribs</h3>
+          <p class="project-card__desc">
+            A CRM and shift management application for a shop in London, designed to
+            support customer relationship management and staff scheduling in everyday
+            shop operations. Built to help a local business manage its work through
+            practical, easy-to-use software.
+          </p>
+          <div class="project-card__stack">
+            <span class="project-card__tech">Full-Stack</span>
+            <span class="project-card__tech">Node.js</span>
+            <span class="project-card__tech">MariaDB</span>
+            <span class="project-card__tech">REST API</span>
+          </div>
+        </div>
+        <div class="project-card__footer">
+          <a href="https://github.com/Thipekesh28?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn--outline" aria-label="View repository on GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+            View Repository
+          </a>
+        </div>
+      </div>
+
+      <!-- BWEK SFF System -->
+      <div class="project-card" data-anim data-anim-delay="100">
+        <div class="project-card__img-wrap">
+          <img src="assets/img/portfolio/bwek-sff.jpg.png"
+               alt="BWEK SFF System – Supplier Feedback Framework interface"
+               loading="lazy">
+          <span class="project-card__badge project-card__badge--work">Professional</span>
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__label">BW Epic Kosan · Enterprise Software</span>
+          <h3 class="project-card__title">BWEK SFF System</h3>
+          <p class="project-card__desc">
+            Supplier Feedback Framework built for BW Epic Kosan. Led the full project
+            lifecycle — from requirements and development through quality assurance and
+            IT support. Enabled the organisation to systematically collect and manage
+            supplier feedback.
+          </p>
+          <div class="project-card__stack">
+            <span class="project-card__tech">Project Lead</span>
+            <span class="project-card__tech">Full-Stack</span>
+            <span class="project-card__tech">QA</span>
+            <span class="project-card__tech">IT Support</span>
+          </div>
+        </div>
+        <div class="project-card__footer">
+          <span class="btn btn--ghost" style="cursor:default;font-size:.8rem;opacity:.7;">Client work — private</span>
+        </div>
+      </div>
+
+      <!-- BWEK IHM System -->
+      <div class="project-card" data-anim data-anim-delay="150">
+        <div class="project-card__img-wrap">
+          <img src="assets/img/portfolio/bwek-ihm.jpg.png"
+               alt="BWEK IHM System – Inventory of Hazardous Materials interface"
+               loading="lazy">
+          <span class="project-card__badge project-card__badge--work">Professional</span>
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__label">BW Epic Kosan · Compliance Software</span>
+          <h3 class="project-card__title">BWEK IHM System</h3>
+          <p class="project-card__desc">
+            Inventory of Hazardous Materials system developed for BW Epic Kosan.
+            Led project delivery and software development with ongoing IT support,
+            enabling compliant tracking and reporting of hazardous materials on vessels.
+          </p>
+          <div class="project-card__stack">
+            <span class="project-card__tech">Project Lead</span>
+            <span class="project-card__tech">Full-Stack</span>
+            <span class="project-card__tech">Compliance</span>
+            <span class="project-card__tech">IT Support</span>
+          </div>
+        </div>
+        <div class="project-card__footer">
+          <span class="btn btn--ghost" style="cursor:default;font-size:.8rem;opacity:.7;">Client work — private</span>
+        </div>
+      </div>
+
+      <!-- BWEK SMS System -->
+      <div class="project-card" data-anim data-anim-delay="200">
+        <div class="project-card__img-wrap">
+          <img src="assets/img/portfolio/bwek-sms.jpg.png"
+               alt="BWEK SMS System – Supplier Management System interface"
+               loading="lazy">
+          <span class="project-card__badge project-card__badge--work">Professional</span>
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__label">BW Epic Kosan · Supplier Management</span>
+          <h3 class="project-card__title">BWEK SMS System</h3>
+          <p class="project-card__desc">
+            Supplier Management System for BW Epic Kosan, supporting centralised
+            supplier data management and communication. Developed the software and
+            provided ongoing IT infrastructure support.
+          </p>
+          <div class="project-card__stack">
+            <span class="project-card__tech">Full-Stack</span>
+            <span class="project-card__tech">Data Management</span>
+            <span class="project-card__tech">IT Support</span>
+          </div>
+        </div>
+        <div class="project-card__footer">
+          <span class="btn btn--ghost" style="cursor:default;font-size:.8rem;opacity:.7;">Client work — private</span>
+        </div>
+      </div>
+
+      <!-- Meritech FSM -->
+      <div class="project-card" data-anim data-anim-delay="250">
+        <div class="project-card__img-wrap">
+          <img src="assets/img/portfolio/meritech-fsm.jpg.png"
+               alt="Meritech FSM – Field System Management interface"
+               loading="lazy">
+          <span class="project-card__badge project-card__badge--work">Professional</span>
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__label">Meritech Software · Field Operations</span>
+          <h3 class="project-card__title">Meritech FSM</h3>
+          <p class="project-card__desc">
+            Field System Management platform developed for Meritech Software.
+            Supported software development and IT operations to enable effective
+            field service coordination and management.
+          </p>
+          <div class="project-card__stack">
+            <span class="project-card__tech">Full-Stack</span>
+            <span class="project-card__tech">Field Operations</span>
+            <span class="project-card__tech">IT Support</span>
+          </div>
+        </div>
+        <div class="project-card__footer">
+          <span class="btn btn--ghost" style="cursor:default;font-size:.8rem;opacity:.7;">Client work — private</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center;margin-top:2.5rem;" data-anim data-anim-delay="300">
+      <a href="https://github.com/Thipekesh28?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+        Explore All Repositories on GitHub
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     EXPERIENCE & EDUCATION
+═══════════════════════════════════════════════════ -->
+<section id="experience" class="section" aria-labelledby="experience-heading">
+  <div class="container">
+    <div class="section-header" data-anim>
+      <h2 id="experience-heading">Experience &amp; Education</h2>
+      <p>My professional background and academic qualifications.</p>
+    </div>
+
+    <div class="timeline" data-anim data-anim-delay="100">
+
+      <!-- Experience column -->
+      <div class="timeline__col">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+          Professional Experience
+        </h3>
+        <div class="timeline__items">
+          <article class="timeline__item">
+            <span class="timeline__period">08 / 2023 — 09 / 2025</span>
+            <h4 class="timeline__title">Full Stack Developer (Software Engineer)</h4>
+            <span class="timeline__org">Kenvyn Accounting and IT Services Pte. Ltd. · Trincomalee</span>
+            <ul class="timeline__bullets">
+              <li>Managed and supported Linux environments, including troubleshooting and performance optimisation.</li>
+              <li>Delivered hardware and software solutions for end-users, ensuring smooth daily operations.</li>
+              <li>Worked on AWS cloud-based projects, applying system administration and cloud deployment skills.</li>
+              <li>Handled IT support for networks, applications, and security systems.</li>
+              <li>Led IT projects end-to-end, ensuring quality assurance and timely delivery.</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 style="margin-top:2.5rem;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+          Projects at Kenvyn
+        </h3>
+        <div class="timeline__items">
+          <article class="timeline__item">
+            <span class="timeline__period">BW Epic Kosan</span>
+            <h4 class="timeline__title">Enterprise Systems Suite</h4>
+            <span class="timeline__org">Three interconnected systems: SFF · IHM · SMS</span>
+            <ul class="timeline__bullets">
+              <li>SFF System — Supplier Feedback Framework: Project Lead, Development, QA, IT Support.</li>
+              <li>IHM System — Inventory of Hazardous Materials: Project Lead, Development, IT Support.</li>
+              <li>SMS System — Supplier Management System: Development, IT Support.</li>
+            </ul>
+          </article>
+          <article class="timeline__item">
+            <span class="timeline__period">Meritech Software</span>
+            <h4 class="timeline__title">Field System Management (FSM)</h4>
+            <span class="timeline__org">Field operations platform</span>
+            <ul class="timeline__bullets">
+              <li>Developed software and provided ongoing IT support for field service coordination.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <!-- Education column -->
+      <div class="timeline__col">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          Education
+        </h3>
+        <div class="timeline__items">
+          <article class="timeline__item">
+            <span class="timeline__period">2025 — 2026</span>
+            <h4 class="timeline__title">MSc Software Engineering</h4>
+            <span class="timeline__org">University of Hertfordshire</span>
+            <ul class="timeline__bullets">
+              <li>Postgraduate study deepening expertise in software engineering principles and practice.</li>
+              <li>Focus areas: secure API design, cloud-native systems, automated testing, and responsible AI.</li>
+            </ul>
+          </article>
+          <article class="timeline__item">
+            <span class="timeline__period">2020 — 2024</span>
+            <h4 class="timeline__title">BSc (Hons) Engineering in Information and Communication Engineering</h4>
+            <span class="timeline__org">Sri Lanka Technological Campus</span>
+            <ul class="timeline__bullets">
+              <li>Undergraduate study in Information &amp; Communication Engineering.</li>
+              <li>Built foundational knowledge in software, networking, and engineering systems.</li>
+            </ul>
+          </article>
+          <article class="timeline__item">
+            <span class="timeline__period">2018</span>
+            <h4 class="timeline__title">General Certificate of Education (Advanced Level)</h4>
+            <span class="timeline__org">T/ Orr's Hill Vivekananda College</span>
+            <ul class="timeline__bullets">
+              <li>Physical Science stream.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     AWS CERTIFICATES & BADGES
+═══════════════════════════════════════════════════ -->
+<section id="aws" class="section section--alt" aria-labelledby="aws-heading">
+  <div class="container">
+    <div class="section-header" data-anim>
+      <h2 id="aws-heading">AWS Learning &amp; Credentials</h2>
+      <p>Course completion certificates, training credentials, and simulation badges earned through the AWS Partner Network, AWS Training &amp; Certification, and AWS SimuLearn programmes.</p>
+    </div>
+
+    <!-- Stats -->
+    <div class="aws-hero" data-anim data-anim-delay="50">
+      <div class="aws-hero__stats">
+        <div class="aws-stat">
+          <span class="aws-stat__num">29</span>
+          <span class="aws-stat__label">Certificates</span>
+        </div>
+        <div class="aws-stat">
+          <span class="aws-stat__num">4</span>
+          <span class="aws-stat__label">SimuLearn Badges</span>
+        </div>
+        <div class="aws-stat">
+          <span class="aws-stat__num">6</span>
+          <span class="aws-stat__label">Domains</span>
+        </div>
+        <div class="aws-stat">
+          <span class="aws-stat__num">Sep 2026</span>
+          <span class="aws-stat__label">Last Completed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SimuLearn Badges -->
+    <h3 style="text-align:center;margin-bottom:1.25rem;font-size:.85rem;color:var(--clr-muted);text-transform:uppercase;letter-spacing:.06em;" data-anim data-anim-delay="100">AWS SimuLearn Badges</h3>
+    <div class="badges-row" data-anim data-anim-delay="150">
+      <div class="badge-item">
+        <img src="certificates/07_Badges/AI-Assisted-Development-with-Kiro_Badge.png"
+             alt="AI-Assisted Development with Kiro SimuLearn Badge"
+             loading="lazy" width="100" height="100">
+        <span class="badge-item__label">AI-Assisted Development with Kiro</span>
+      </div>
+      <div class="badge-item">
+        <img src="certificates/07_Badges/Create-an-AI-Smart-Assistant_Badge.png"
+             alt="Create an AI Smart Assistant SimuLearn Badge"
+             loading="lazy" width="100" height="100">
+        <span class="badge-item__label">Create an AI Smart Assistant</span>
+      </div>
+      <div class="badge-item">
+        <img src="certificates/07_Badges/Explore-the-Amazon-Bedrock-Playgrounds_Badge.png"
+             alt="Explore the Amazon Bedrock Playgrounds SimuLearn Badge"
+             loading="lazy" width="100" height="100">
+        <span class="badge-item__label">Explore the Amazon Bedrock Playgrounds</span>
+      </div>
+      <div class="badge-item">
+        <img src="certificates/07_Badges/Secure-Conversational-AI-with-Guardrails_Badge.png"
+             alt="Secure Conversational AI with Guardrails SimuLearn Badge"
+             loading="lazy" width="100" height="100">
+        <span class="badge-item__label">Secure Conversational AI with Guardrails</span>
+      </div>
+    </div>
+
+    <!-- Certificate Tabs -->
+    <div data-anim data-anim-delay="200">
+      <div class="cert-tabs" role="tablist" aria-label="Certificate categories">
+        <button class="cert-tab active" data-tab="agentic" role="tab" aria-selected="true" aria-controls="panel-agentic">Agentic AI (5)</button>
+        <button class="cert-tab" data-tab="bedrock" role="tab" aria-selected="false" aria-controls="panel-bedrock">Bedrock &amp; GenAI (6)</button>
+        <button class="cert-tab" data-tab="aidlc" role="tab" aria-selected="false" aria-controls="panel-aidlc">AI-DLC Foundations (5)</button>
+        <button class="cert-tab" data-tab="simulearn" role="tab" aria-selected="false" aria-controls="panel-simulearn">SimuLearn &amp; Kiro (6)</button>
+        <button class="cert-tab" data-tab="quick" role="tab" aria-selected="false" aria-controls="panel-quick">Amazon Quick (3)</button>
+        <button class="cert-tab" data-tab="cloud" role="tab" aria-selected="false" aria-controls="panel-cloud">Cloud &amp; Security (4)</button>
+      </div>
+
+      <!-- Panel 1: Agentic AI -->
+      <div class="cert-panel active certs-grid" id="panel-agentic" role="tabpanel" aria-labelledby="">
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--partner">AWS Partner</span>
+            <div class="cert-card__title">AI FastTrack – Building Agentic AI Solutions on AWS – Technical</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Partner Network</span>
+              <span class="cert-card__date">Sep 25, 2026</span>
+            </div>
+            <a href="certificates/01_Agentic_AI_%26_Multi_Agent/AI-FastTrack_Building-Agentic-AI-Solutions-on-AWS.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--partner">AWS Partner</span>
+            <div class="cert-card__title">AWS Partner: Agentic AI Technical Foundations</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Partner Network</span>
+              <span class="cert-card__date">Sep 09, 2026</span>
+            </div>
+            <a href="certificates/01_Agentic_AI_%26_Multi_Agent/AWS-Partner_Agentic-AI-Technical-Foundations.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--partner">AWS PartnerCast</span>
+            <div class="cert-card__title">AWS PartnerCast – Securing Agentic AI at Scale – Technical</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS PartnerCast</span>
+              <span class="cert-card__date">Sep 25, 2026</span>
+            </div>
+            <a href="certificates/01_Agentic_AI_%26_Multi_Agent/AWS-PartnerCast_Securing-Agentic-AI-at-Scale.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--partner">AWS PartnerCast</span>
+            <div class="cert-card__title">AWS PartnerCast – Scaling Enterprise AI: Advanced Control &amp; Governance with Kong &amp; Bedrock</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS PartnerCast</span>
+              <span class="cert-card__date">Sep 25, 2026</span>
+            </div>
+            <a href="certificates/01_Agentic_AI_%26_Multi_Agent/AWS-PartnerCast_Scaling-Enterprise-AI-with-Kong-and-Bedrock.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Building Multi-Agent Systems with Strands Agents</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 24, 2026</span>
+            </div>
+            <a href="certificates/01_Agentic_AI_%26_Multi_Agent/Building-Multi-Agent-Systems-with-Strands-Agents.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Panel 2: Bedrock & GenAI -->
+      <div class="cert-panel certs-grid" id="panel-bedrock" role="tabpanel">
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Building Generative AI Applications Using Amazon Bedrock</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 16, 2026</span>
+            </div>
+            <a href="certificates/02_Amazon_Bedrock_%26_Generative_AI/Building-Generative-AI-Applications-Using-Amazon-Bedrock.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Exploring Amazon Nova Models Using Amazon Bedrock</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 24, 2026</span>
+            </div>
+            <a href="certificates/02_Amazon_Bedrock_%26_Generative_AI/Exploring-Amazon-Nova-Models-Using-Amazon-Bedrock.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Extended Thinking with Amazon Nova</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 25, 2026</span>
+            </div>
+            <a href="certificates/02_Amazon_Bedrock_%26_Generative_AI/Extended-Thinking-with-Amazon-Nova.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--partner">AWS Partner</span>
+            <div class="cert-card__title">AWS Partner: Amazon Bedrock AgentCore Observability</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Partner Network</span>
+              <span class="cert-card__date">Sep 25, 2026</span>
+            </div>
+            <a href="certificates/02_Amazon_Bedrock_%26_Generative_AI/AWS-Partner_Amazon-Bedrock-AgentCore-Observability.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Essentials of Prompt Engineering</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 09, 2026</span>
+            </div>
+            <a href="certificates/02_Amazon_Bedrock_%26_Generative_AI/Essentials-of-Prompt-Engineering.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--partner">AWS Partner</span>
+            <div class="cert-card__title">AWS Partner: Modern Data Foundations For Generative AI – Business</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Partner Network</span>
+              <span class="cert-card__date">Sep 10, 2026</span>
+            </div>
+            <a href="certificates/02_Amazon_Bedrock_%26_Generative_AI/AWS-Partner_Modern-Data-Foundations-For-Generative-AI-Business.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Panel 3: AI-DLC Foundations -->
+      <div class="cert-panel certs-grid" id="panel-aidlc" role="tabpanel">
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">AI-DLC Foundations: Introduction</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 16, 2026</span>
+            </div>
+            <a href="certificates/03_AI_DLC_Foundations/AI-DLC-Foundations_01-Introduction.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">AI-DLC Foundations: Evolution</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 16, 2026</span>
+            </div>
+            <a href="certificates/03_AI_DLC_Foundations/AI-DLC-Foundations_02-Evolution.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">AI-DLC Foundations: Principles</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/03_AI_DLC_Foundations/AI-DLC-Foundations_03-Principles.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">AI-DLC Foundations: Best Practices</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/03_AI_DLC_Foundations/AI-DLC-Foundations_04-Best-Practices.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">AI-DLC Foundations: Workflow and Collaboration</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/03_AI_DLC_Foundations/AI-DLC-Foundations_05-Workflow-and-Collaboration.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Panel 4: SimuLearn & Kiro -->
+      <div class="cert-panel certs-grid" id="panel-simulearn" role="tabpanel">
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--simulearn">SimuLearn</span>
+            <div class="cert-card__title">AWS SimuLearn: Explore the Amazon Bedrock Playgrounds</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS SimuLearn</span>
+              <span class="cert-card__date">Sep 09, 2026</span>
+            </div>
+            <a href="certificates/04_AWS_SimuLearn_%26_Kiro/AWS-SimuLearn_Explore-the-Amazon-Bedrock-Playgrounds.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--simulearn">SimuLearn</span>
+            <div class="cert-card__title">AWS SimuLearn: Create an AI Smart Assistant</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS SimuLearn</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/04_AWS_SimuLearn_%26_Kiro/AWS-SimuLearn_Create-an-AI-Smart-Assistant.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--simulearn">SimuLearn</span>
+            <div class="cert-card__title">AWS SimuLearn: AI-Assisted Development with Kiro</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS SimuLearn</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/04_AWS_SimuLearn_%26_Kiro/AWS-SimuLearn_AI-Assisted-Development-with-Kiro.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--simulearn">SimuLearn</span>
+            <div class="cert-card__title">AWS SimuLearn: Design Modern Data Architectures with Agentic AI</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS SimuLearn</span>
+              <span class="cert-card__date">Sep 24, 2026</span>
+            </div>
+            <a href="certificates/04_AWS_SimuLearn_%26_Kiro/AWS-SimuLearn_Design-Modern-Data-Architectures-with-Agentic-AI.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Kiro Getting Started</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/04_AWS_SimuLearn_%26_Kiro/Kiro-Getting-Started.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Spec-Driven Development with Kiro</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/04_AWS_SimuLearn_%26_Kiro/Spec-Driven-Development-with-Kiro.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Panel 5: Amazon Quick -->
+      <div class="cert-panel certs-grid" id="panel-quick" role="tabpanel">
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8,21 12,17 16,21"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Introduction to Amazon Quick on Desktop</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/05_Amazon_Quick_Suite/Introduction-to-Amazon-Quick-on-Desktop.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8,21 12,17 16,21"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--partner">AWS Partner</span>
+            <div class="cert-card__title">AWS Partner: Amazon Quick Technical Foundations</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Partner Network</span>
+              <span class="cert-card__date">Sep 24, 2026</span>
+            </div>
+            <a href="certificates/05_Amazon_Quick_Suite/AWS-Partner_Amazon-Quick-Technical-Foundations.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8,21 12,17 16,21"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Amazon Quick Automate – Building Intelligent Workflows</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 24, 2026</span>
+            </div>
+            <a href="certificates/05_Amazon_Quick_Suite/Amazon-Quick-Automate_Building-Intelligent-Workflows.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Panel 6: Cloud & Security -->
+      <div class="cert-panel certs-grid" id="panel-cloud" role="tabpanel">
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Amazon S3 Vectors Getting Started</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 17, 2026</span>
+            </div>
+            <a href="certificates/06_Cloud_Architecture_Security_%26_Operations/Amazon-S3-Vectors-Getting-Started.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--partner">AWS Partner</span>
+            <div class="cert-card__title">AWS Partner: Migrating AI Applications to AWS</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Partner Network</span>
+              <span class="cert-card__date">Sep 24, 2026</span>
+            </div>
+            <a href="certificates/06_Cloud_Architecture_Security_%26_Operations/AWS-Partner_Migrating-AI-Applications-to-AWS.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Security, Compliance, and Governance for AI Solutions</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 24, 2026</span>
+            </div>
+            <a href="certificates/06_Cloud_Architecture_Security_%26_Operations/Security-Compliance-and-Governance-for-AI-Solutions.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="cert-card__body">
+            <span class="cert-type-badge cert-type-badge--completion">AWS Training</span>
+            <div class="cert-card__title">Production Framework – Operations</div>
+            <div class="cert-card__meta">
+              <span class="cert-card__issuer">AWS Training &amp; Certification</span>
+              <span class="cert-card__date">Sep 25, 2026</span>
+            </div>
+            <a href="certificates/06_Cloud_Architecture_Security_%26_Operations/Production-Framework-Operations.pdf" target="_blank" rel="noopener" class="cert-card__link">View Certificate ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- /cert tabs wrapper -->
+
+    <!-- Disclaimer note -->
+    <p style="text-align:center;color:var(--clr-muted);font-size:.78rem;margin-top:2rem;max-width:680px;margin-inline:auto;line-height:1.7;">
+      <strong style="color:var(--clr-text);">Note:</strong> All credentials above are <em>course completion certificates</em>, training completion records, and interactive simulation badges issued through AWS Training &amp; Certification, AWS Partner Network, AWS PartnerCast, and AWS SimuLearn programmes. These are not AWS Associate, Professional, or Specialty certification exam badges.
+    </p>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════════════════ -->
+<section id="contact" class="section" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="section-header" data-anim>
+      <h2 id="contact-heading">Get in Touch</h2>
+      <p>I'm open to new opportunities, collaborations, and conversations.</p>
+    </div>
+
+    <div class="contact__grid">
+
+      <div data-anim data-anim-delay="100">
+        <span class="availability">Open to opportunities</span>
+        <h3>Let's connect</h3>
+        <p>
+          Whether you're a recruiter with a relevant role, a collaborator with an
+          interesting project, or just want to chat about software engineering — feel
+          free to reach out.
+        </p>
+
+        <div class="contact__items">
+          <a href="mailto:thipekesh@gmail.com" class="contact__item" aria-label="Send email to thipekesh@gmail.com">
+            <span class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <div>
+              <span class="contact__item-label">Email</span>
+              <span class="contact__item-value">thipekesh@gmail.com</span>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/thipekesh/" target="_blank" rel="noopener noreferrer" class="contact__item" aria-label="LinkedIn profile">
+            <span class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </span>
+            <div>
+              <span class="contact__item-label">LinkedIn</span>
+              <span class="contact__item-value">linkedin.com/in/thipekesh</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/Thipekesh28" target="_blank" rel="noopener noreferrer" class="contact__item" aria-label="GitHub profile">
+            <span class="contact__item-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+            </span>
+            <div>
+              <span class="contact__item-label">GitHub</span>
+              <span class="contact__item-value">github.com/Thipekesh28</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: call to action card -->
+      <div data-anim data-anim-delay="200" style="display:flex;flex-direction:column;gap:1.5rem;">
+        <div style="background:var(--clr-surface-2);border:1px solid var(--clr-border);border-radius:var(--radius-lg);padding:2rem;">
+          <h3 style="margin-bottom:0.75rem;font-size:1.1rem;">Reach me directly</h3>
+          <p style="color:var(--clr-muted);font-size:0.9rem;margin-bottom:1.5rem;line-height:1.7;">
+            The fastest way to reach me is via email or LinkedIn. I typically respond within 24–48 hours.
+          </p>
+          <div style="display:flex;flex-direction:column;gap:0.75rem;">
+            <a href="mailto:thipekesh@gmail.com" class="btn btn--primary" style="justify-content:center;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Send me an email
+            </a>
+            <a href="https://www.linkedin.com/in/thipekesh/" target="_blank" rel="noopener noreferrer" class="btn btn--outline" style="justify-content:center;">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              Connect on LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div style="background:var(--clr-surface-2);border:1px solid var(--clr-border);border-radius:var(--radius-lg);padding:1.5rem;">
+          <p style="font-size:0.8rem;color:var(--clr-muted);line-height:1.6;margin-bottom:1rem;">
+            <strong style="color:var(--clr-text);">Mindset:</strong> Learn → Build → Share → Improve
+          </p>
+          <p style="font-size:0.8rem;color:var(--clr-muted);line-height:1.6;">
+            I aim to build software that is useful, accessible, and respectful of user privacy — and to grow as a responsible engineer through continuous learning.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container footer__inner">
+    <div class="footer__brand">Thipekesh<span>.</span></div>
+    <ul class="footer__links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#aws">AWS</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div style="display:flex;gap:1rem;justify-content:center;">
+      <a href="mailto:thipekesh@gmail.com" aria-label="Email" style="color:var(--clr-muted);transition:color .15s ease;" onmouseover="this.style.color='var(--clr-accent)'" onmouseout="this.style.color='var(--clr-muted)'">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/thipekesh/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style="color:var(--clr-muted);transition:color .15s ease;" onmouseover="this.style.color='var(--clr-accent)'" onmouseout="this.style.color='var(--clr-muted)'">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="https://github.com/Thipekesh28" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style="color:var(--clr-muted);transition:color .15s ease;" onmouseover="this.style.color='var(--clr-accent)'" onmouseout="this.style.color='var(--clr-muted)'">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+      </a>
+    </div>
+    <p class="footer__copy">&copy; <span id="footer-year"></span> Thipekesh Thavarajah. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Scroll to top -->
+<a href="#hero" class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+</a>
+
+<!-- JS -->
+<script src="assets/js/portfolio.js" defer></script>
+</body>
+</html>
